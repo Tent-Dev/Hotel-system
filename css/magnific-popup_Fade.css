@@ -1,0 +1,73 @@
+   /* overlay at start */
+  .mfp-fade.mfp-bg {
+    opacity: 0;
+
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  }
+  /* overlay animate in */
+  .mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+  }
+  /* overlay animate out */
+  .mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+  }
+
+  /* content at start */
+  .mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  }
+  /* content animate it */
+  .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+  }
+  /* content animate out */
+  .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {opacity: 0.7;}
+    100% {opacity: 1;}
+  }
+
+  @-moz-keyframes fadeIn {
+      0% {opacity: 0.7;}
+      100% {opacity: 1;}
+  }
+
+  @-o-keyframes fadeIn {
+      0% {opacity: 0.7;}
+      100% {opacity: 1;}
+  }
+
+  @keyframes fadeIn {
+      0% {opacity: 0.7;}
+      100% {opacity: 1;}
+  }
+
+  .mfp-open .mfp-figure {
+      -webkit-animation-name: fadeIn;
+      -moz-animation-name: fadeIn;
+      -o-animation-name: fadeIn;
+      animation-name: fadeIn;
+      -webkit-animation-duration: .5s;
+      -moz-animation-duration: .5s;
+      -ms-animation-duration: .5s;
+      -o-animation-duration: .5s;
+      animation-duration: .5s;
+      -webkit-animation-fill-mode: both;
+      -moz-animation-fill-mode: both;
+      -ms-animation-fill-mode: both;
+      -o-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility:    hidden;
+      -ms-backface-visibility:     hidden;
+  }

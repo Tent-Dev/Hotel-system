@@ -1,0 +1,19 @@
+PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/Applications/AMPPS/var/mysql.sock' (2) in /Applications/AMPPS/www/myport/system/class_db.php on line 21
+
+Warning: mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/Applications/AMPPS/var/mysql.sock' (2) in /Applications/AMPPS/www/myport/system/class_db.php on line 21
+PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /Applications/AMPPS/www/myport/system/class_db.php on line 22
+
+Warning: mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /Applications/AMPPS/www/myport/system/class_db.php on line 22
+PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /Applications/AMPPS/www/myport/system/class_db.php on line 29
+
+Warning: mysqli_query() expects parameter 1 to be mysqli, boolean given in /Applications/AMPPS/www/myport/system/class_db.php on line 29
+PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /Applications/AMPPS/www/myport/system/class_db.php on line 30
+
+Warning: mysqli_query() expects parameter 1 to be mysqli, boolean given in /Applications/AMPPS/www/myport/system/class_db.php on line 30
+PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /Applications/AMPPS/www/myport/system/class_db.php on line 31
+
+Warning: mysqli_query() expects parameter 1 to be mysqli, boolean given in /Applications/AMPPS/www/myport/system/class_db.php on line 31
+PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /Applications/AMPPS/www/myport/system/class_db.php on line 125
+
+Warning: mysqli_query() expects parameter 1 to be mysqli, boolean given in /Applications/AMPPS/www/myport/system/class_db.php on line 125
+
